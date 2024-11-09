@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+.m1{
+
+    color: green;
+    background-color: blue;
+    background-image: url(m1.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     
+}
+
+.m2{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-menu{
+    flex: 1;
+    text-align: right;
+}
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    background-color: black;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-menu ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.9s;
+}
+.nav-menu ul li:hover::after{
+    width: 100%;
+    position: absolute;
+    top: 15px;
+}
+.profile{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(25%, -25%);
+}
+.titlediscribtion{
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, *50%);
+}
+.titlediscribtion h1{
+    font-size: 40px;
+}
+.titlediscribtion p{
+    margin: 10px 0 30px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 120px;
+}
+.titlediscribtion a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 15px;
+    background-color: black;
+
+}
+.titlediscribtion a:hover{
+    background-color: green;
+    border: 2px solid black;
+    transition: 0.9s;
+}
+@media(max-width: 700px).titlediscribtion{
+        width: 80%;
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        transform: translate(-50%, *50%);
+        text-align: center;
+}
+
+.section-header{
+    background-image: url(images.jpg);
+    height: 500px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-left: 300px;
+
+}
+
+.section-header .title-section{
+
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.discunt .offer{
+
+    color: aqua;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 350px;
+    text-shadow: 5px 5px 5px 5px;
+}
+.discunt .offer1{
+
+    color: crimson;
+    text-align: center;
+}
+.discunt .offer2{
+
+    color: crimson;
+    text-align: center;
+}
+
+.image-section{
+    background-image: url(th2.png);
+    height: 200px;
+    width: 200px;
+    padding-left: 30px;
+    margin-left: 200px;
+}
+
+.new-section{
+    background-image: url(shofiqul.jpg);
+    width: 400px;
+    height: 200px;
+    padding: 150px;
+    border: 3px solid green;
+    border-radius: 50px;
+}
+.new-section .we{
+
+    color: crimson;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px;
+    margin-top: -100px;
+    margin-left: -400px;
+}
+.new-section .th6{
+    color: black;
+    margin-left: -100px;
+    
+}
+
