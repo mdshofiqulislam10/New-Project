@@ -211,5 +211,8 @@ nav h3{
     width: fit-content;
     
 }
+.footer ul li a{
+    text-decoration: none;
+}
 
 
